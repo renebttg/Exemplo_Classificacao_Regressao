@@ -255,6 +255,8 @@ horas_estudo_novo = np.array([[8]]) # Horas do estudo do novo aluno
 nota_prevista = modelo.predict(horas_estudo_novo)
 print("Nota prevista para {} horas de estudo: {:.2f}".format(horas_estudo_novo[0][0], nota_prevista[0]))
 ~~~
+![Linear](https://github.com/renebttg/Exemplo_Classificacao_Regressao/assets/114888521/e1c44b4c-427d-4c7a-8478-4c6b9e721c5d)
+
 
 ### Regressão Linear Múltipla
 
@@ -304,6 +306,8 @@ ax.set_zlabel('Notas do Exame')
 
 plt.show()
 ~~~
+![Linear multipla](https://github.com/renebttg/Exemplo_Classificacao_Regressao/assets/114888521/c9ea752e-1e56-451f-8105-d7a89426467f)
+
 
 ### Regressão Linear Logística
 
@@ -364,6 +368,8 @@ plt.title('Regressão Logística para Classificaçãode Espécies Iris')
 plt.legend()
 plt.show()
 ~~~
+![Logistica](https://github.com/renebttg/Exemplo_Classificacao_Regressao/assets/114888521/8ee5cc8d-9727-4106-ad19-7c199525c2dd)
+
 
 ### Regressão Polinomial
 
@@ -406,6 +412,8 @@ plt.title('Regressão Polimonial de Grau 2')
 plt.legend()
 plt.show()
 ~~~
+![Polimonial](https://github.com/renebttg/Exemplo_Classificacao_Regressao/assets/114888521/1fd2ed0f-1d1e-43ca-9f31-81eb6365ab1c)
+
 
 ### Métodos de Regressão Não Linear
 
@@ -440,4 +448,6 @@ plt.title('Regressão Não Linear Exponencial')
 plt.legend()
 plt.show()
 ~~~
+![Não Linear](https://github.com/renebttg/Exemplo_Classificacao_Regressao/assets/114888521/f208d69f-1e3a-4409-a9cd-ff258fc5d3a4)
+
 
